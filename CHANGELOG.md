@@ -2,34 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.1.2](https://github.com/BrayantGB14/lab/compare/v0.1.1...v0.1.2) (2021-02-24)
-
-### [0.1.1](https://github.com/BrayantGB14/lab/compare/v0.1.0...v0.1.1) (2021-02-24)
-
-
-### Bug Fixes
-
-* **parsing:** fixed a bug in our parser ([2847e81](https://github.com/BrayantGB14/lab/commit/2847e814991de47213560079cd1c260bcda1c58a))
-
-## 0.1.0 (2021-02-24)
-
-
-### ⚠ BREAKING CHANGES
-
-* **new-parser:** new library does not support foo-construct
-
-### Features
-
-* **new-parser:** introduces a new parsing library ([da8a656](https://github.com/BrayantGB14/lab/commit/da8a65638a965fe3513d0f6baef475a0e2de5c36))
-
-
-### Bug Fixes
-
-* **parsing:** fixed a bug in our parser ([092386c](https://github.com/BrayantGB14/lab/commit/092386c93d16196644811d83ce2ecf3a2b65a769))
-* **parsing:** fixed a bug in our parser ([d751d07](https://github.com/BrayantGB14/lab/commit/d751d0776051e761ec80c88b4f713ff461791d49))
-* **parsing:** fixed a bug in our parser ([db55519](https://github.com/BrayantGB14/lab/commit/db55519d288c32b47b0681ceb599c43a7507e05e))
-* **parsing:** fixed a bug in our parser ([61e3e1b](https://github.com/BrayantGB14/lab/commit/61e3e1bcf10ef95dddaca8649ef0e7115db72248))
-
 ### [0.0.12](///compare/v0.0.11...v0.0.12) (2021-02-24)
 
 ### [0.0.11](///compare/v0.0.10...v0.0.11) (2021-02-24)
