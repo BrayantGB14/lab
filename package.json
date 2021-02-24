@@ -14,7 +14,7 @@
     "postrelease": "npm run release:tags && npm run release:github && (ci-publish || npm publish --access=public)",
     "prerelease": "npm run update:check && npm run contributors",
     "release:github": "conventional-github-releaser -p angular",
-    "release:tags": "git push --follow-tags origin HEAD:master",
+    "release:tags": "git push --follow-tags origin HEAD:main",
     "update:check": "ncu -- --error-level 2",
     "update": "ncu -u"
   },
