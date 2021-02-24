@@ -1,6 +1,6 @@
 {
   "name": "proyect",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,14 +9,7 @@
     "test": "ng test --watch=false --sourceMap=false",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "release": "standard-version -a",
-    "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
-    "postrelease": "npm run release:tags && npm run release:github && (ci-publish || npm publish --access=public)",
-    "prerelease": "npm run update:check && npm run contributors",
-    "release:github": "conventional-github-releaser -p angular",
-    "release:tags": "git push --follow-tags origin HEAD:main",
-    "update:check": "ncu -- --error-level 2",
-    "update": "ncu -u"
+    "release": "standard-version -a"
   },
   "private": true,
   "dependencies": {
