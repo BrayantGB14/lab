@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/BrayantGB14/lab/compare/v0.1.2...v0.0.13) (2021-02-24)
+
+
+### Bug Fixes
+
+* new commit ([c9992f5](https://github.com/BrayantGB14/lab/commit/c9992f521b46887800efa5f891d0d06b7410563c))
+* new commit ([7aba6c4](https://github.com/BrayantGB14/lab/commit/7aba6c46048723fe0351499510781d09fd4842e5))
+* new commit ([25c6f8b](https://github.com/BrayantGB14/lab/commit/25c6f8b2243f818a9e8c109b75fdacd257318b08))
+
 ### [0.0.12](///compare/v0.0.11...v0.0.12) (2021-02-24)
 
 ### [0.0.11](///compare/v0.0.10...v0.0.11) (2021-02-24)
