@@ -1,6 +1,6 @@
 {
   "name": "proyect",
-  "version": "0.0.25",
+  "version": "0.0.23",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,10 +9,9 @@
     "test": "ng test --watch=false --sourceMap=false",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postrelease": "npm run release:tags && npm run release:github",
-    "release": "standard-version",
-    "release:github": "conventional-github-releaser -p angular",
-    "release:tags": "git push --follow-tags origin main"
+    "release": "standard-version -a",
+    "release:tags": "git push --follow-tags origin main",
+    "postrelease": "npm run release:tags"
   },
   "husky": {
     "hooks": {
