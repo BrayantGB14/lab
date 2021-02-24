@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.23](https://github.com/BrayantGB14/lab/compare/v0.0.22...v0.0.23) (2021-02-24)
+
+
+### Features
+
+* **parser:** we now have a parser \o/ ([10d7fa5](https://github.com/BrayantGB14/lab/commit/10d7fa5222b9721165da758cb68f29ea47302850))
+
 ### [0.0.22](https://github.com/BrayantGB14/lab/compare/v0.0.21...v0.0.22) (2021-02-24)
 
 
