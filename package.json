@@ -9,7 +9,14 @@
     "test": "ng test --watch=false --sourceMap=false",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "release": "standard-version"
+    "release": "standard-version -a",
+    "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
+    "postrelease": "npm run release:tags && npm run release:github && (ci-publish || npm publish --access=public)",
+    "prerelease": "npm run update:check && npm run contributors",
+    "release:github": "conventional-github-releaser -p angular",
+    "release:tags": "git push --follow-tags origin HEAD:master",
+    "update:check": "ncu -- --error-level 2",
+    "update": "ncu -u"
   },
   "private": true,
   "dependencies": {
@@ -33,7 +40,7 @@
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
-    "husky": "^4.3.8",
+    "husky": "latest",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.1.0",
@@ -42,9 +49,33 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "protractor": "~7.0.0",
-    "standard-version": "^9.1.1",
+    "standard-version": "latest",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.1.2"
+    "typescript": "~4.1.2",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "ci-publish": "latest",
+    "conventional-github-releaser": "latest",
+    "finepack": "latest",
+    "git-authors-cli": "latest",
+    "lint-staged": "latest",
+    "npm-check-updates": "latest"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "package.json": [
+      "finepack"
+    ]
   }
 }
