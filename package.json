@@ -1,6 +1,6 @@
 {
   "name": "proyect",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -26,6 +26,7 @@
     "@angular/platform-browser": "~11.2.0",
     "@angular/platform-browser-dynamic": "~11.2.0",
     "@angular/router": "~11.2.0",
+    "automate-release": "^1.0.6",
     "git-branch-is": "^4.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
