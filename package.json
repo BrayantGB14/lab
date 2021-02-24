@@ -12,7 +12,7 @@
     "postrelease": "npm run release:tags && npm run release:github",
     "release": "standard-version",
     "release:github": "conventional-github-releaser -p angular",
-    "release:tags": "git push --follow-tags origin master"
+    "release:tags": "git push --follow-tags origin main"
   },
   "husky": {
     "hooks": {
