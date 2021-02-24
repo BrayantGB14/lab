@@ -12,6 +12,8 @@ declare const require: {
     keys(): string[];
     <T>(id: string): T;
     //test
+
+    
   };
 };
 
