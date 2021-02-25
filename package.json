@@ -1,6 +1,6 @@
 {
   "name": "proyect",
-  "version": "0.0.33",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,14 +9,11 @@
     "test": "ng test --watch=false --sourceMap=false",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "release": "standard-version",
-    "release:tags": "git push --follow-tags origin main",
-    "postrelease": "npm run release:tags"
+    "release": "standard-version"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run test"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "private": true,
