@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.31](https://github.com/BrayantGB14/lab/compare/v0.0.30...v0.0.31) (2021-02-25)
+
+
+### Features
+
+* **parser:** comitlint succes ([570f1b9](https://github.com/BrayantGB14/lab/commit/570f1b959479dc393f9ee877019fca87f8b1e2be))
+
 ### [0.0.30](https://github.com/BrayantGB14/lab/compare/v0.0.29...v0.0.30) (2021-02-25)
 
 ### [0.0.29](https://github.com/BrayantGB14/lab/compare/v0.0.28...v0.0.29) (2021-02-25)
