@@ -9,7 +9,7 @@
     "test": "ng test --watch=false --sourceMap=false",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "release": "standard-version -a",
+    "release": "standard-version",
     "release:tags": "git push --follow-tags origin main",
     "postrelease": "npm run release:tags"
   },
