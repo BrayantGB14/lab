@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/BrayantGB14/lab/compare/v1.1.1...v1.2.0) (2021-02-25)
+
+
+### Features
+
+* commit add,BREAKING CHANGE: commit ([2558c27](https://github.com/BrayantGB14/lab/commit/2558c27d81a1fc72d26ef830a1954c48a982647f))
+
 ### [1.1.1](https://github.com/BrayantGB14/lab/compare/v1.1.0...v1.1.1) (2021-02-25)
 
 
