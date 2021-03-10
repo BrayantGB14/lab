@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/BrayantGB14/lab/compare/v3.0.1...v3.1.0) (2021-03-10)
+
+
+### Features
+
+* next version ([cdbaa1e](https://github.com/BrayantGB14/lab/commit/cdbaa1eb3c099997f6afec11d2b50e591108301c))
+* next version ([6915d41](https://github.com/BrayantGB14/lab/commit/6915d41f8a123b21fa79f16c5533c8e66781ee08))
+
 ### [3.0.1](https://github.com/BrayantGB14/lab/compare/v3.0.0...v3.0.1) (2021-03-10)
 
 ## [3.0.0](https://github.com/BrayantGB14/lab/compare/v2.0.0...v3.0.0) (2021-03-09)
