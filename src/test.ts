@@ -13,6 +13,9 @@ declare const require: {
     <T>(id: string): T;
 
     
+
+
+    
   };
 };
 
